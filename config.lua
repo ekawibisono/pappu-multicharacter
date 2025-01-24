@@ -1,4 +1,5 @@
 Config = {}
+Config.webhookmultiplayer = 'urlwebhookdiscord'
 Config.Interior = vector3(-1004.36, -477.9, 51.63) -- Interior to load where characters are previewed
 Config.DefaultSpawn = vector3(-1004.36, -477.9, 51.63) -- Default spawn coords if you have start apartments disabled
 Config.PedCoords = vector4(-1008.49, -474.51, 50.03, 208.64) -- Create preview ped at these coordinates
