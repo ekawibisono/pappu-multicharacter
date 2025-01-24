@@ -58,7 +58,7 @@ end
 
 -- Discord logging function
 local function sendToDiscord(name, message, color)
-    local discordWebhook = "https://canary.discord.com/api/webhooks/1255278139291209831/rmq4wlFMeMTEHiU1fnQ08jWhHdrJ5e4wJ7ETkBOuzm1I82w2Qi_-u57NUIO1rjUNUY_D" -- Replace with your Discord webhook URL
+    local discordWebhook = Config.webhookmultiplayer -- Replace with your Discord webhook URL
     
     local embeds = {
         {
